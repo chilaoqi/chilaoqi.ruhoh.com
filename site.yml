@@ -14,3 +14,5 @@ navigation :
   - pages.html
   - about.md
   
+plugins:
+    google_site_verification: google7a908d88826264ac
