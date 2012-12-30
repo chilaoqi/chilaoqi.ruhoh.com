@@ -626,16 +626,16 @@ h3 {
   line-height: 52px;
 }
 h1 {
-  font-size: 49.5px;
+  font-size: 34.5px;
 }
 h2 {
-  font-size: 40.5px;
+  font-size: 28.5px;
 }
 h3 {
-  font-size: 31.5px;
+  font-size: 21.5px;
 }
 h4 {
-  font-size: 22.5px;
+  font-size: 21.5px;
 }
 h5 {
   font-size: 18px;
@@ -644,7 +644,7 @@ h6 {
   font-size: 15.299999999999999px;
 }
 h1 small {
-  font-size: 31.5px;
+  font-size: 20.5px;
 }
 h2 small {
   font-size: 22.5px;

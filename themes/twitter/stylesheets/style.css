@@ -20,7 +20,7 @@ html, body {
     position: relative;
     background-color: #fff;
     padding: 20px;
-    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    margin: 10px -20px; /* negative indent the amount of the padding to maintain the grid system */
     -webkit-box-shadow: 0 4px 4px rgba(0,0,0,.15);
     -moz-box-shadow: 0 4px 4px rgba(0,0,0,.15);
     box-shadow: 0 4px 4px rgba(0,0,0,.15);
