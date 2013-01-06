@@ -18,7 +18,7 @@ update: 2013-01-06
 
 [1]: http://book.douban.com/subject/6756090/
 [2]: http://www.ruhoh.com/
-[3]: http://blog.chixq.com/null
-[4]: http://blog.chixq.com/null
+[3]: http://blog.chixq.com/404
+[4]: http://blog.chixq.com/404
 
 
