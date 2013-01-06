@@ -4,6 +4,7 @@
 RuhohSpec: '1.0'
 theme : twitter
 production_url : http://blog.chixq.com
+disqus_shorname : 'chixq'
 
 posts:
   permalink: /:year-:month-:day/:title/
