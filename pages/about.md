@@ -1,6 +1,7 @@
 ---
 title:
 description:
+tagline: Xiaoqiang.Chi
 ---
 The Man of Kind and Fearless. 
 
@@ -10,10 +11,11 @@ The Man of Kind and Fearless.
 - Northwestern Polytechnical University
 
 Find me:
-- [Weibo][1]
-- [Twitter][2]
-- [Gmail][3]
-- [Github][4]
+
++ [Weibo][1]
++ [Twitter][2]
++ [Gmail][3]
++ [Github][4]
 
 [1]: http://www.weibo.com/chixiaoqiang
 [2]: https://twitter.com/chisexna
