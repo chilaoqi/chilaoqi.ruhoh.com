@@ -1,0 +1,51 @@
+---
+layout : default
+---
+<div class="page-header">
+  <h1>{{ page.title }} {{# page.tagline }} <small>{{ . }}</small>{{/ page.tagline }}</h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    {{{ page.content }}}
+
+      <ul id="social">
+          <li><a class="socialite twitter-share"></a></li>
+          <li><a class="socialite facebook-like" data-layout="button_count"></a></li>
+          <li><a class="socialite googleplus-one" data-size="medium"></a></li>
+          <li><a class="socialite linkedin-share"></a></li>
+          <li><a class="socialite hackernews-share"></a></li>
+      </ul>
+
+      <hr>
+    <div class="pagination">
+      <ul>
+      {{# page.previous }}
+        <li class="prev"><a href="{{ url }}" title="{{ title }}">&larr; Previous</a></li>
+      {{/page.previous}}
+      {{^page.previous}}
+        <li class="prev disabled"><a>&larr; Previous</a></li>
+      {{/page.previous}}
+        <li><a href="{{ data.archive_path }}">Archive</a></li>
+      {{# page.next }}
+        <li class="next"><a href="{{ url }}" title="{{ title }}">Next &rarr;</a></li>
+      {{/page.next}}
+      {{^page.next}}
+        <li class="next disabled"><a>Next &rarr;</a>
+      {{/page.next}}
+      </ul>
+    </div>
+    <hr>
+  </div>
+  
+  <div class="span4">
+    <div class="published-icon"></div><div class="date"><span>{{ page.date }}</span></div>
+
+    <ul class="tag_box inline">
+        <div class="tags-icon"></div>
+        {{# page.tags }}
+            {{> tags_list }}
+        {{/ page.tags }}
+    </ul>
+  </div>
+</div>

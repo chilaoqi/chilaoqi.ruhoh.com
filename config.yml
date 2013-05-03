@@ -2,7 +2,8 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
+#theme : twitter
+theme : wiki 
 production_url : http://blog.chixq.com
 disqus_shorname : 'chixq'
 
